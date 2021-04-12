@@ -126,8 +126,7 @@ public class ExGUI02 {
 			btnAdd = new JButton("＋");
 			btnAdd.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					Operator = 1;
-					ExGUI02_Object.Operator();
+					ExGUI02_Object.Operator(Operator=1);
 				}
 			});
 			btnAdd.setBounds(106, 6, 45, 29);
@@ -139,8 +138,7 @@ public class ExGUI02 {
 			btnMinus = new JButton("ー");
 			btnMinus.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					Operator = 2;
-					ExGUI02_Object.Operator();
+					ExGUI02_Object.Operator(Operator=2);
 				}
 			});
 			btnMinus.setBounds(163, 6, 45, 29);
@@ -152,8 +150,7 @@ public class ExGUI02 {
 			btnMul = new JButton("x");
 			btnMul.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					Operator = 3;
-					ExGUI02_Object.Operator();
+					ExGUI02_Object.Operator(Operator=4);
 				}
 			});
 			btnMul.setBounds(219, 6, 45, 29);
@@ -165,8 +162,7 @@ public class ExGUI02 {
 			btnDiv = new JButton("/");
 			btnDiv.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					Operator = 4;
-					ExGUI02_Object.Operator();
+					ExGUI02_Object.Operator(Operator=4);
 				}
 			});
 			btnDiv.setBounds(276, 6, 45, 29);
