@@ -149,9 +149,7 @@ public class GUI01 {
 		int wkNum1 = Integer.parseInt(tfNum1.getText());
 		int wkNum2 = Integer.parseInt(tfNum2.getText());
 		int wkResult = wkNum1 + wkNum2;
-		
 		tfResult.setText(Integer.toString(wkResult));
-		
 		JOptionPane.showMessageDialog(frame, Integer.toString(wkResult));
 		
 	}

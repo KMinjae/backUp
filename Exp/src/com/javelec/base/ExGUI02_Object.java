@@ -46,7 +46,7 @@ public class ExGUI02_Object extends ExGUI02 {
 				break;
 			}
 		} catch (Exception e) {
-			System.err.println("빈값이 들어왔거나");
+			JOptionPane.showMessageDialog(null, "Please enter a value.");
 			// TODO: handle exception
 		}
 		return 0;
